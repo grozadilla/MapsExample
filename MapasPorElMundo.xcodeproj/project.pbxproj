@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F68DB2991931F19C0031677C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68DB2981931F19C0031677C /* Foundation.framework */; };
+		F68DB29B1931F19D0031677C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68DB29A1931F19D0031677C /* CoreGraphics.framework */; };
+		F68DB29D1931F19D0031677C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68DB29C1931F19D0031677C /* UIKit.framework */; };
+		F68DB2A31931F19D0031677C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F68DB2A11931F19D0031677C /* InfoPlist.strings */; };
+		F68DB2A51931F19D0031677C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F68DB2A41931F19D0031677C /* main.m */; };
+		F68DB2A91931F19D0031677C /* GRUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F68DB2A81931F19D0031677C /* GRUAppDelegate.m */; };
+		F68DB2AB1931F19D0031677C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68DB2AA1931F19D0031677C /* Images.xcassets */; };
+		F68DB2B21931F19D0031677C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68DB2B11931F19D0031677C /* XCTest.framework */; };
+		F68DB2B31931F19D0031677C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68DB2981931F19C0031677C /* Foundation.framework */; };
+		F68DB2B41931F19D0031677C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68DB29C1931F19D0031677C /* UIKit.framework */; };
+		F68DB2BC1931F19D0031677C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F68DB2BA1931F19D0031677C /* InfoPlist.strings */; };
+		F68DB2BE1931F19D0031677C /* MapasPorElMundoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F68DB2BD1931F19D0031677C /* MapasPorElMundoTests.m */; };
+		F68DB2C81931F1BC0031677C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68DB2C71931F1BC0031677C /* CoreLocation.framework */; };
+		F68DB2CA1931F1C40031677C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68DB2C91931F1C40031677C /* MapKit.framework */; };
+		F68DB2D11931F21D0031677C /* GRUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F68DB2CF1931F21D0031677C /* GRUViewController.m */; };
+		F68DB2D21931F21D0031677C /* GRUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F68DB2D01931F21D0031677C /* GRUViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F68DB2B51931F19D0031677C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F68DB28D1931F19C0031677C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F68DB2941931F19C0031677C;
+			remoteInfo = MapasPorElMundo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F68DB2951931F19C0031677C /* MapasPorElMundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapasPorElMundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68DB2981931F19C0031677C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F68DB29A1931F19D0031677C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F68DB29C1931F19D0031677C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F68DB2A01931F19D0031677C /* MapasPorElMundo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapasPorElMundo-Info.plist"; sourceTree = "<group>"; };
+		F68DB2A21931F19D0031677C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F68DB2A41931F19D0031677C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F68DB2A61931F19D0031677C /* MapasPorElMundo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapasPorElMundo-Prefix.pch"; sourceTree = "<group>"; };
+		F68DB2A71931F19D0031677C /* GRUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRUAppDelegate.h; sourceTree = "<group>"; };
+		F68DB2A81931F19D0031677C /* GRUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRUAppDelegate.m; sourceTree = "<group>"; };
+		F68DB2AA1931F19D0031677C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F68DB2B01931F19D0031677C /* MapasPorElMundoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapasPorElMundoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68DB2B11931F19D0031677C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F68DB2B91931F19D0031677C /* MapasPorElMundoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapasPorElMundoTests-Info.plist"; sourceTree = "<group>"; };
+		F68DB2BB1931F19D0031677C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F68DB2BD1931F19D0031677C /* MapasPorElMundoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapasPorElMundoTests.m; sourceTree = "<group>"; };
+		F68DB2C71931F1BC0031677C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F68DB2C91931F1C40031677C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F68DB2CE1931F21D0031677C /* GRUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRUViewController.h; sourceTree = "<group>"; };
+		F68DB2CF1931F21D0031677C /* GRUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRUViewController.m; sourceTree = "<group>"; };
+		F68DB2D01931F21D0031677C /* GRUViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRUViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F68DB2921931F19C0031677C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68DB2CA1931F1C40031677C /* MapKit.framework in Frameworks */,
+				F68DB2C81931F1BC0031677C /* CoreLocation.framework in Frameworks */,
+				F68DB29B1931F19D0031677C /* CoreGraphics.framework in Frameworks */,
+				F68DB29D1931F19D0031677C /* UIKit.framework in Frameworks */,
+				F68DB2991931F19C0031677C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68DB2AD1931F19D0031677C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68DB2B21931F19D0031677C /* XCTest.framework in Frameworks */,
+				F68DB2B41931F19D0031677C /* UIKit.framework in Frameworks */,
+				F68DB2B31931F19D0031677C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F68DB28C1931F19C0031677C = {
+			isa = PBXGroup;
+			children = (
+				F68DB29E1931F19D0031677C /* MapasPorElMundo */,
+				F68DB2B71931F19D0031677C /* MapasPorElMundoTests */,
+				F68DB2971931F19C0031677C /* Frameworks */,
+				F68DB2961931F19C0031677C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F68DB2961931F19C0031677C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F68DB2951931F19C0031677C /* MapasPorElMundo.app */,
+				F68DB2B01931F19D0031677C /* MapasPorElMundoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F68DB2971931F19C0031677C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F68DB2C91931F1C40031677C /* MapKit.framework */,
+				F68DB2C71931F1BC0031677C /* CoreLocation.framework */,
+				F68DB2981931F19C0031677C /* Foundation.framework */,
+				F68DB29A1931F19D0031677C /* CoreGraphics.framework */,
+				F68DB29C1931F19D0031677C /* UIKit.framework */,
+				F68DB2B11931F19D0031677C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F68DB29E1931F19D0031677C /* MapasPorElMundo */ = {
+			isa = PBXGroup;
+			children = (
+				F68DB2A71931F19D0031677C /* GRUAppDelegate.h */,
+				F68DB2A81931F19D0031677C /* GRUAppDelegate.m */,
+				F68DB2AA1931F19D0031677C /* Images.xcassets */,
+				F68DB29F1931F19D0031677C /* Supporting Files */,
+				F68DB2CE1931F21D0031677C /* GRUViewController.h */,
+				F68DB2CF1931F21D0031677C /* GRUViewController.m */,
+				F68DB2D01931F21D0031677C /* GRUViewController.xib */,
+			);
+			path = MapasPorElMundo;
+			sourceTree = "<group>";
+		};
+		F68DB29F1931F19D0031677C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F68DB2A01931F19D0031677C /* MapasPorElMundo-Info.plist */,
+				F68DB2A11931F19D0031677C /* InfoPlist.strings */,
+				F68DB2A41931F19D0031677C /* main.m */,
+				F68DB2A61931F19D0031677C /* MapasPorElMundo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F68DB2B71931F19D0031677C /* MapasPorElMundoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F68DB2BD1931F19D0031677C /* MapasPorElMundoTests.m */,
+				F68DB2B81931F19D0031677C /* Supporting Files */,
+			);
+			path = MapasPorElMundoTests;
+			sourceTree = "<group>";
+		};
+		F68DB2B81931F19D0031677C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F68DB2B91931F19D0031677C /* MapasPorElMundoTests-Info.plist */,
+				F68DB2BA1931F19D0031677C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F68DB2941931F19C0031677C /* MapasPorElMundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68DB2C11931F19D0031677C /* Build configuration list for PBXNativeTarget "MapasPorElMundo" */;
+			buildPhases = (
+				F68DB2911931F19C0031677C /* Sources */,
+				F68DB2921931F19C0031677C /* Frameworks */,
+				F68DB2931931F19C0031677C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapasPorElMundo;
+			productName = MapasPorElMundo;
+			productReference = F68DB2951931F19C0031677C /* MapasPorElMundo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F68DB2AF1931F19D0031677C /* MapasPorElMundoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68DB2C41931F19D0031677C /* Build configuration list for PBXNativeTarget "MapasPorElMundoTests" */;
+			buildPhases = (
+				F68DB2AC1931F19D0031677C /* Sources */,
+				F68DB2AD1931F19D0031677C /* Frameworks */,
+				F68DB2AE1931F19D0031677C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F68DB2B61931F19D0031677C /* PBXTargetDependency */,
+			);
+			name = MapasPorElMundoTests;
+			productName = MapasPorElMundoTests;
+			productReference = F68DB2B01931F19D0031677C /* MapasPorElMundoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F68DB28D1931F19C0031677C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GRU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = gru;
+				TargetAttributes = {
+					F68DB2AF1931F19D0031677C = {
+						TestTargetID = F68DB2941931F19C0031677C;
+					};
+				};
+			};
+			buildConfigurationList = F68DB2901931F19C0031677C /* Build configuration list for PBXProject "MapasPorElMundo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F68DB28C1931F19C0031677C;
+			productRefGroup = F68DB2961931F19C0031677C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F68DB2941931F19C0031677C /* MapasPorElMundo */,
+				F68DB2AF1931F19D0031677C /* MapasPorElMundoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F68DB2931931F19C0031677C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68DB2D21931F21D0031677C /* GRUViewController.xib in Resources */,
+				F68DB2A31931F19D0031677C /* InfoPlist.strings in Resources */,
+				F68DB2AB1931F19D0031677C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68DB2AE1931F19D0031677C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68DB2BC1931F19D0031677C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F68DB2911931F19C0031677C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68DB2D11931F21D0031677C /* GRUViewController.m in Sources */,
+				F68DB2A51931F19D0031677C /* main.m in Sources */,
+				F68DB2A91931F19D0031677C /* GRUAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68DB2AC1931F19D0031677C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68DB2BE1931F19D0031677C /* MapasPorElMundoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F68DB2B61931F19D0031677C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F68DB2941931F19C0031677C /* MapasPorElMundo */;
+			targetProxy = F68DB2B51931F19D0031677C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F68DB2A11931F19D0031677C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F68DB2A21931F19D0031677C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F68DB2BA1931F19D0031677C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F68DB2BB1931F19D0031677C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F68DB2BF1931F19D0031677C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F68DB2C01931F19D0031677C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F68DB2C21931F19D0031677C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapasPorElMundo/MapasPorElMundo-Prefix.pch";
+				INFOPLIST_FILE = "MapasPorElMundo/MapasPorElMundo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F68DB2C31931F19D0031677C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapasPorElMundo/MapasPorElMundo-Prefix.pch";
+				INFOPLIST_FILE = "MapasPorElMundo/MapasPorElMundo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F68DB2C51931F19D0031677C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MapasPorElMundo.app/MapasPorElMundo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapasPorElMundo/MapasPorElMundo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MapasPorElMundoTests/MapasPorElMundoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F68DB2C61931F19D0031677C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MapasPorElMundo.app/MapasPorElMundo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapasPorElMundo/MapasPorElMundo-Prefix.pch";
+				INFOPLIST_FILE = "MapasPorElMundoTests/MapasPorElMundoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F68DB2901931F19C0031677C /* Build configuration list for PBXProject "MapasPorElMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68DB2BF1931F19D0031677C /* Debug */,
+				F68DB2C01931F19D0031677C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F68DB2C11931F19D0031677C /* Build configuration list for PBXNativeTarget "MapasPorElMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68DB2C21931F19D0031677C /* Debug */,
+				F68DB2C31931F19D0031677C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F68DB2C41931F19D0031677C /* Build configuration list for PBXNativeTarget "MapasPorElMundoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68DB2C51931F19D0031677C /* Debug */,
+				F68DB2C61931F19D0031677C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F68DB28D1931F19C0031677C /* Project object */;
+}
